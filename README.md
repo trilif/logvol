@@ -1,1 +1,2 @@
-# logvol
+Kitermelt faanyag térfogatának számításához
+
