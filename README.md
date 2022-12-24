@@ -1,4 +1,4 @@
-Kitermelt faanyag térfogatának számításához
+API kitermelt faanyag térfogatszámításához
 
 row3
 
