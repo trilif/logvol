@@ -11,4 +11,14 @@ Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alap
 </ul>
 
 
-<b>row4</b>
+<b>1) CREATE DATABASE</b>
+Postgresben hozz létre egy 'logvol' nevű és 'postgres' ownerű adatbázist.
+az imports.sql tartalmazza a táblák felépítéséhez szükséges queryket és az összes 'insert into' statementet az adatok betöltéséhez.
+
+<b>2) NODEJS PG KITERJESZTÉS telepítése</b>
+Ezzel fog tudni kapcsolódni a NodeJS PostgreSQL adatbázishoz.
+$ npm install pg
+
+<b>3) EXPRESSJS telepítése</b>
+$ npm install express --save
+
