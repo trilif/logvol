@@ -30,13 +30,13 @@ $ npm install express --save
 <hr>
 <h3>Hívás:</h3>
 
-<h2>http://localhost:3300/T/25/36</h2>
+<h3>http://localhost:3300/T/25/36</h3>
 vagyis
-<h2>protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN</h2>
+<h3>protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN</h3>
 response: <br>
-<h2>az adott faanyag térfogata m<sup>3</sup>-ben</h2>
+<h3>az adott faanyag térfogata m<sup>3</sup>-ben</h3>
 <hr>
-<h3>Választható fafajok:</h3>
+<h3>Választható fafajok, fafajcsoportok:</h3>
 <ul>
 
 <li>T - Tölgy, Alkalmazható
