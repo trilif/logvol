@@ -11,14 +11,51 @@ Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alap
 </ul>
 
 
-<b>1) CREATE DATABASE</b><br>
+<b>1) Create database</b><br>
 Postgresben hozz létre egy 'logvol' nevű és 'postgres' ownerű adatbázist.
 az imports.sql tartalmazza a táblák felépítéséhez szükséges queryket és az összes 'insert into' statementet az adatok betöltéséhez.
 
-<b>2) NODEJS PG KITERJESZTÉS telepítése</b><br>
+<b>2) NodeJS PG telepítése</b><br>
 Ezzel fog tudni kapcsolódni a NodeJS PostgreSQL adatbázishoz.<br>
 $ npm install pg
 
-<b>3) EXPRESSJS telepítése</b><br>
+<b>3) ExpressJS telepítése</b><br>
 $ npm install express --save
 
+<b>Az API működése:</b></br>
+
+pl.: http://localhost:3300/T/25/36
+<br>
+protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN
+<br>
+response: az adott faanyag térfogata m<sup>3</sup>-ben
+<br>
+Választható fafajok:
+<ul>
+
+<li>T - Tölgy, Alkalmazható
+a kocsányos tölgy,
+a kocsánytalan tölgy,
+a molyhos tölgy,
+a vörös tölgy és
+az egyéb tölgyfélék esetében</li>
+<li>CS - Cser</li>
+<li>B - Bükk</li>
+<li>A - Akác</li>
+  <li>GYEKL - Gyertyán és egyéb kemény lombos fafajok, Alkalmazható
+a gyertyán,
+a kőris,
+a juhar,
+a szil,
+a vadgyümölcs félék és
+minden egyéb kemény lombosfaj esetében</li>
+  <li>NY - Nyár, Alkalmazható
+a hazai nyárak és
+a nemesnyárak fajai, illetve fajtái esetében</li>
+  <li>ELL - Egyéb lágy lombos fafajok, Alkalmazható
+az éger,
+a fűz,
+a hárs,
+a nyír és
+minden egyéb lágy lombos fafaj esetében</li>
+</ul>
