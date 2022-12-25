@@ -31,10 +31,14 @@ $ npm install express --save
 <h3>Hívás:</h3>
 
 <h3>http://localhost:3300/T/25/36</h3>
-vagyis
-<h3>protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN</h3>
-response: <br>
-<h3>az adott faanyag térfogata m<sup>3</sup>-ben</h3>
+ahol
+<ul>
+<li>T: fafajcsoport</li>
+<li>25: hossz deciméterben</li>
+<li>36: csúcsátmérő centiméterben</li>
+</ul>
+válasz: <br>
+<h4>az adott faanyag térfogata m<sup>3</sup>-ben.</h4>
 <hr>
 <h3>Választható fafajok, fafajcsoportok:</h3>
 <ul>
