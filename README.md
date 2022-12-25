@@ -9,8 +9,8 @@ Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alap
 <li>NodeJS - a lekérdezések kiszolgálására</li>
 <li>ExpresJS - az API motorja</li>
 </ul>
-
-
+<hr>
+<h3>Használat</h3>
 <b>1) Create database</b><br>
 Postgresben hozz létre egy 'logvol' nevű és 'postgres' ownerű adatbázist.
 
