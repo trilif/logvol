@@ -1,4 +1,4 @@
-<u><b>API kitermelt faanyag térfogatszámításához</b></u>
+<u><h2>API kitermelt faanyag térfogatszámításához</h2></u>
 
 Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alapján készült és gyors és hatékony adatfeldolgozást tesz lehetővé gépi algoritmusok számára.
 
@@ -13,16 +13,22 @@ Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alap
 
 <b>1) Create database</b><br>
 Postgresben hozz létre egy 'logvol' nevű és 'postgres' ownerű adatbázist.
+
+<b>2) Import data</b><br>
 az imports.sql tartalmazza a táblák felépítéséhez szükséges queryket és az összes 'insert into' statementet az adatok betöltéséhez.
 
-<b>2) NodeJS PG telepítése</b><br>
+<b>3) Start logvol</b><br>
+$node logvol.js
+<hr>
+<h3>Dependencies</h3>
+<b>A) NodeJS PG</b><br>
 Ezzel fog tudni kapcsolódni a NodeJS PostgreSQL adatbázishoz.<br>
 $ npm install pg
 
-<b>3) ExpressJS telepítése</b><br>
+<b>B) ExpressJS</b><br>
 $ npm install express --save
-
-<b>Az API működése:</b></br>
+<hr>
+<b>Hívás:</b></br>
 
 pl.: http://localhost:3300/T/25/36
 <br>
