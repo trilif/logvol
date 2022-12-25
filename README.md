@@ -58,4 +58,10 @@ a fűz,
 a hárs,
 a nyír és
 minden egyéb lágy lombos fafaj esetében</li>
+  <li>F - Fenyő, Alkalmazható
+az erdeifenyő,
+a feketefenyő,
+a lucfenyő,
+a vörösfenyő és
+minden egyéb fenyőféle esetében</li>
 </ul>
