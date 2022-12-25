@@ -28,15 +28,15 @@ $ npm install pg
 <b>B) ExpressJS</b><br>
 $ npm install express --save
 <hr>
-<b>Hívás:</b></br>
+<h3>Hívás:</h3>
 
-pl.: http://localhost:3300/T/25/36
-<br>
-protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN
-<br>
-response: az adott faanyag térfogata m<sup>3</sup>-ben
-<br>
-Választható fafajok:
+<h2>http://localhost:3300/T/25/36</h2>
+vagyis
+<h2>protokol://host:port/FAFAJCSOPORT/HOSSZ_DECIMÉTERBEN/ÁTMÉRŐ_CENTIMÉTERBEN</h2>
+response: <br>
+<h2>az adott faanyag térfogata m<sup>3</sup>-ben</h2>
+<hr>
+<h3>Választható fafajok:</h3>
 <ul>
 
 <li>T - Tölgy, Alkalmazható
