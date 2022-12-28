@@ -7,7 +7,7 @@ Az API a FATÁJ "Rönk és egyéb hengeresfa köböző táblázatok" adatai alap
 
 <li>PostgreSQL - a köböző táblázatok tárolására</li>
 <li>NodeJS - a lekérdezések kiszolgálására</li>
-<li>ExpresJS - az API motorja</li>
+<li>ExpressJS - az API motorja</li>
 </ul>
 <hr>
 <h3>Használat</h3>
